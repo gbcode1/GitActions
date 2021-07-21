@@ -31,6 +31,10 @@ public class BaseTest {
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments(props.getProperty("chrome.arguments"));
 
+        chromeOptions.addArguments("--no-sandbox");
+        chromeOptions.addArguments("--disable-dev-shm-usage");
+        chromeOptions.addArguments("--headless");
+
         driver = new ChromeDriver(chromeOptions);
         wait = new WebDriverWait(driver, 10);
 
