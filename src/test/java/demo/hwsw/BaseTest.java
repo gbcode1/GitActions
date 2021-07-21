@@ -29,7 +29,6 @@ public class BaseTest {
         WebDriverManager.chromedriver().setup();
 
         ChromeOptions chromeOptions = new ChromeOptions();
-        chromeOptions.addArguments(props.getProperty("chrome.arguments"));
 
         chromeOptions.addArguments("--no-sandbox");
         chromeOptions.addArguments("--disable-dev-shm-usage");

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="demo.hwsw.TC2_CalculatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-21T15:38:08" hostname="GEZA-LAPTOP" time="0.006">
+<testsuite name="demo.hwsw.TC2_CalculatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-21T15:45:05" hostname="GEZA-LAPTOP" time="0.004">
   <properties/>
-  <testcase name="testSum()" classname="demo.hwsw.TC2_CalculatorTest" time="0.006"/>
+  <testcase name="testSum()" classname="demo.hwsw.TC2_CalculatorTest" time="0.004"/>
   <system-out><![CDATA[a=10
 b=15
 result=25
